@@ -10,7 +10,7 @@ from io import BytesIO
 MANUFACTURER = 1  # Garmin
 # GARMIN_DEVICE_PRODUCT_ID = 3415  # Forerunner 245
 GARMIN_DEVICE_PRODUCT_ID = 3992  # Forerunner 255
-GARMIN_SOFTWARE_VERSION = 13.23
+GARMIN_SOFTWARE_VERSION = 3.58
 # The device serial number must be real Garmin will identify device with it
 # here the default number:1234567890 Garmin will recognize it as Forerunner 245
 GARMIN_DEVICE_SERIAL_NUMBER = 3424575912
