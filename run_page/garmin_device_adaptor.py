@@ -8,12 +8,12 @@ from io import BytesIO
 # the device manufacturer and product info can be found in github,
 # https://github.com/garmin/fit-python-sdk/blob/main/garmin_fit_sdk/profile.py
 MANUFACTURER = 1  # Garmin
-GARMIN_DEVICE_PRODUCT_ID = 3415  # Forerunner 245
-GARMIN_SOFTWARE_VERSION = 3.58
+# GARMIN_DEVICE_PRODUCT_ID = 3415  # Forerunner 245
+GARMIN_DEVICE_PRODUCT_ID = 3992  # Forerunner 245m
+GARMIN_SOFTWARE_VERSION = 13.23
 # The device serial number must be real Garmin will identify device with it
 # here the default number:1234567890 Garmin will recognize it as Forerunner 245
-GARMIN_DEVICE_SERIAL_NUMBER = 1234567890
-
+GARMIN_DEVICE_SERIAL_NUMBER = 3424575912
 
 def is_fit_file(file):
     file.seek(8)  # Move file pointer to the 9th byte
